@@ -1,0 +1,20 @@
+<div>
+    <p>
+        hola mundo. Mi primera vista <%= @nombre %>
+    </p>
+    <% if @imprimir==true %>
+    <p>
+        Esto solo se imprime si imprimir = true
+    </p>
+    <% end %>
+    
+    Lista de elementos
+    <ul>
+        <li><%= @array[0] %></li>
+        <li><%= @array[1] %></li>
+        <li><%= @array[2] %></li>
+        <li><%= @array[3] %></li>
+        <li><%= @array[4] %></li>
+    </ul>
+    
+</div>
