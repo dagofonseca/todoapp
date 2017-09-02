@@ -467,3 +467,13 @@ Processing by TodosController#index as HTML
 Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/todos" for 10.240.1.19 at 2017-08-30 19:07:47 +0000
+Cannot render console from 10.240.1.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  Rendered todos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 229ms (Views: 215.0ms | ActiveRecord: 1.8ms)
+
+
